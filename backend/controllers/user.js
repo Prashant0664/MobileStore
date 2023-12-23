@@ -262,6 +262,19 @@ exports.getUser = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
+exports.findOutUser = async (req, res) => {
+  try {
+    const { email } = req.body;
+    const user = await User.find({ email: email })
+    if (user) {
+      res.status(200).json(user);
+    } else {
+      res.status(200).json({ message: "no such user exists" });
+    }
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
 exports.sendResetPasswordCode = async (req, res) => {
   try {
     const { email } = req.body;

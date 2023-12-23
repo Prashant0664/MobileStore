@@ -15,6 +15,7 @@ const {
   changePassword,
   sendreportmails,
   fetchprof,
+  findOutUser
 } = require("../controllers/user");
 const {
   sendmail,
@@ -36,6 +37,7 @@ router.post("/validateResetCode", validateResetCode);
 router.post("/changePassword", changePassword);
 router.post("/reportcontent", sendreportmails);
 router.post("/fetchprof", fetchprof);
+router.post("/findOutUser", findOutUser);
 
 router.get("/login/failed", (req, res) => {
   res.status(401).json({
