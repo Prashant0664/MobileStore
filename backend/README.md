@@ -8,4 +8,6 @@ CLOUD_NAME (of cloudinary)
 CLOUD_API_KEY
 CLOUD_API_SECRET
 PASS (google app password for nodemailer)
-REACT_APP_BACKEND_URL=${process.env.REACT_APP_BACKEND_URL}```
+REACT_APP_BACKEND_URL=${process.env.REACT_APP_BACKEND_URL}
+REACT_APP_FRONTEND_URL=${process.env.REACT_APP_BACKEND_URL}
+```
