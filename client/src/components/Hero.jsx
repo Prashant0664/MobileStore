@@ -10,8 +10,8 @@ const Hero = ({ heroapi: { title, subtitle, btntext, img, sociallinks, videos } 
     <div className='top-container'>
       <div className='bg-theme clip-path bg-them-h'></div>
       <div className='hero-img-container nike-container'>
-        <div className='hero-img-subcont mt-28 md:mt-24'>
-          <h1 className="h1-text-top text-center  ">{title}</h1>
+        <div className='hero-img-subcont mt-28 md:mt-28'>
+          <h1 className="h1-text-top text-center">{title}</h1>
           <h1 className="h1-text-top md:mt-4 sm:mt-1 xsm:mt-0 ">{subtitle}</h1>
           <button type='button' className='button-theme button-top2a'><a href="#sales">
 
