@@ -1,0 +1,253 @@
+.auth_wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  height: fit-content;
+  border-radius: 3px;
+  border: 1px solid rgb(181, 179, 179);
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: 0px 0px 5px 1px black;
+}
+
+.auth_wrapper:hover {
+  box-shadow: 0px 0px 10px 1px black;
+
+}
+
+.auth_wrapper .img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth_wrapper .img span {
+  font-weight: 500;
+  font-size: 1.6rem;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(16, 15, 15);
+}
+
+.auth_wrapper .img img {
+  width: 60px;
+  object-fit: cover;
+  margin: auto;
+}
+
+.login-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
+.login-cont .tab {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  font-weight: 500;
+  border-bottom: 1px solid rgb(52, 50, 50);
+  color: grey;
+  font-size: small;
+  cursor: pointer;
+}
+
+.input {
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid grey;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 3px;
+}
+
+.input input {
+  border: none;
+  outline: none;
+}
+
+.inputnav:focus {
+  border: 2px solid rgb(1, 1, 139);
+}
+
+.inputnav {
+  padding: 0.2rem;
+  margin-left: 300px;
+  background-color: rgba(209, 203, 203, 0.3);
+  border-radius: 15px;
+  display: flex;
+  width: 400px;
+  height: 30px;
+  margin-left: 1rem;
+  border: none;
+  outline: none;
+  position: relative;
+  /* bottom: 1px; */
+  font-size: small;
+  font-family: cursive;
+  background: transparent;
+  background-color: pink;
+  background-color: rgba(209, 203, 203, 0.3);
+  border-radius: 15px;
+  border: solid 2px rgb(214, 214, 214);
+}
+
+
+.inputnav:hover {
+  box-shadow: 0px 1px 1px 0px rgb(6, 0, 36);
+  transition: 300ms;
+  background-color: white;
+  border: solid 2px rgba(209, 203, 203, 0.6);
+}
+
+.inputnav:focus {
+  transition: 340ms;
+  height: 35px;
+  border-radius: 10px;
+  color: black;
+  border: solid 1px black;
+  background-color: rgb(255, 255, 255);
+  /* display: none; */
+}
+
+.inputnav::placeholder {
+  position: relative;
+  color: rgb(86, 86, 86);
+  font-size: small;
+  padding: auto;
+}
+
+@media screen and (max-width: 1153px) {
+
+
+  .navbar .search .search_wrap input {
+    width: 355px;
+  }
+}
+
+@media screen and (max-width: 1088px) {
+  .navbar .search {
+    right: 221px;
+  }
+
+
+
+  .navbar .search .search_wrap input {
+    width: 331px;
+  }
+
+  .posts_container .item .right .profile_data {
+    top: -9px;
+  }
+}
+
+@media screen and (max-width: 1058px) {
+
+  .links a:first-child {
+    right: 38px;
+  }
+
+  .navbar .search .search_wrap input {
+    width: 319px;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .search {
+    display: none;
+    /* background-color: red; */
+  }
+
+  .search_wrap {
+    display: none;
+  }
+
+  .search-result {
+    display: none;
+  }
+
+  .imagesearch {
+    display: none;
+  }
+
+  .inputnav {
+    display: none;
+    /* background-color: red; */
+  }
+
+  .search_wrap {
+    display: none;
+  }
+
+  .imagesearch {
+    display: none;
+  }
+
+  .write2 {
+    display: flex;
+    /* background-color: pink; */
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-items: center;
+  }
+}
+
+.errorValidation {
+  color: red;
+  font-size: xx-small;
+}
+
+.RegisterSuccess {
+  color: green;
+  font-size: xx-small;
+}
+
+.dilougue {
+  width: auto;
+  background-color: #eee;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 1rem;
+  font-size: xx-small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dilougue b {
+  color: black;
+}
+
+.forget {
+  width: auto;
+  background-color: white;
+  padding: 1rem;
+  font-size: xx-small;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.forget a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+.forget a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.footer {
+  height: 70px;
+  background-color: #042f58;
+  color: white;
+  display: grid;
+  place-items: center;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.footer:hover {
+  background-color: #031d35;
+  font-size: 16px;
+}

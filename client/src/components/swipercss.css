@@ -1,0 +1,40 @@
+
+.carousel .slide-wrapper {
+    width: 50%
+}
+
+.carousel .thumb {
+    width: 60px;
+    height: 50px;
+    height: 60px;
+    align-items: center;
+    overflow: hidden;
+    border: solid black;
+}
+
+.carousel {
+    text-align: center;
+    position: relative;
+    display: block
+}
+
+.carousal-img-css {
+    /* scale:0.5; */
+    /* margin-top: 60px; */
+    height: 500px;
+    max-width: 500px;
+    width: auto;
+}
+
+.imgc-cont {
+    overflow: scroll;
+    width: auto;
+}
+
+.mccc {
+    overflow: scroll;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e9e9;
+}
