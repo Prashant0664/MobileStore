@@ -25,8 +25,8 @@ Clone this repository to your local machine:
 
 ```
 git clone https://github.com/Prashant0664/MobileStore.git
-Install dependencies for both the client and backend folders:
 ```
+Install dependencies for both the client and backend folders:
 
 ```
 
