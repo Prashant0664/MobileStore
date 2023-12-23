@@ -23,39 +23,41 @@ To run this project locally, follow these steps:
 
 Clone this repository to your local machine:
 
-bash
-Copy code
-git clone https://github.com/your-username/Mobile-Store-Assignment.git
+```
+git clone [https://github.com/Prashant0664/MobileStore.git](https://github.com/Prashant0664/MobileStore.git)
 Install dependencies for both the client and backend folders:
+```
 
-bash
-Copy code
-cd Mobile-Store-Assignment/client
+```
+
+cd MobileStore/client
 npm install
-
+  ```
+```
 cd ../backend
 npm install
+```
 Set up MongoDB:
 
 Install MongoDB locally or use a cloud-based service.
 Configure the MongoDB connection URL in the backend code (if needed) - usually found in backend/config/db.js or a similar configuration file.
 Start the development servers:
 
-bash
-Copy code
-# Inside the client folder
-npm start
 
+# Inside the client folder
+```
+npm run dev
+```
 # Inside the backend folder
+```
 npm start
+```
 Access the application:
 
-Client: Open your web browser and go to http://localhost:3000 to view the client-side application.
-Backend: The backend server will be running on http://localhost:8000 by default, providing the necessary API endpoints.
+Client: Open your web browser and go to http://localhost:PORT to view the client-side application.
+Backend: The backend server will be running on http://localhost:5000 by default, providing the necessary API endpoints.
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or create a pull request.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-Feel free to customize this README by adding additional sections such as deployment instructions, troubleshooting tips, or any specific details relevant to your project.
