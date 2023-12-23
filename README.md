@@ -24,7 +24,7 @@ To run this project locally, follow these steps:
 Clone this repository to your local machine:
 
 ```
-git clone [https://github.com/Prashant0664/MobileStore.git](https://github.com/Prashant0664/MobileStore.git)
+git clone https://github.com/Prashant0664/MobileStore.git
 Install dependencies for both the client and backend folders:
 ```
 
