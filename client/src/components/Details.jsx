@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { PlusCircleIcon } from '@heroicons/react/24/solid';
 import { Carousel } from 'react-responsive-carousel';
 import { useDispatch } from 'react-redux'
-import { setAddItemToCart, setOpenCart } from '../app/CartSlice'
+import { setAddItemToCart } from '../app/CartSlice'
 import { addCart } from '../helpers/index.js';
 import '@splidejs/react-splide/css';
 
